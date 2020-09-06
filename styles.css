@@ -10,16 +10,15 @@ body{
     background: black;
     font-family: 'open_sansregular';
 }
-header{
-    display: inline;
-}
-nav{
-    display: inline;
-}
-img .logo{
-    display: inline;
-}
 ul{
     list-style: none;
-    display: inline;
+}
+header{
+    display: inline-block;
+}
+.site-logo{
+    display: inline-block;
+}
+nav{
+    display: inline-block;
 }
