@@ -9,6 +9,7 @@ body{
     background: black;
     font-family: 'open_sansregular';
     color: white;
+    margin-left: 20px;
 }
 ul{
     list-style: none;
@@ -17,6 +18,7 @@ ul{
 header{
     display: inline-block;
     height: 90px;
+    border-bottom: solid;
 }
 .site-logo{
     display: inline-block;
