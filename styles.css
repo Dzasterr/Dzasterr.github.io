@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('opensans-regular-webfont.woff2') format('woff2'),
+         url('opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    background: black;
+    font-family: 'open_sansregular';
+}
+header{
+    display: inline;
+}
+nav{
+    display: inline;
+}
+img .logo{
+    display: inline;
+}
+ul{
+    list-style: none;
+    display: inline;
+}
