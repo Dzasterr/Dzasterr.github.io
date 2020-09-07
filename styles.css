@@ -5,6 +5,9 @@
     font-style: normal;
 
 }
+p{
+    text-indent: 50px;
+}
 body{
     background: black;
     font-family: 'open_sansregular';
@@ -44,6 +47,7 @@ a:hover{
 }
 h1{
     margin-bottom: 0px;
+    text-indent: 20px;
 }
 p{
     margin-top: 5px;
@@ -68,6 +72,9 @@ figure{
 figcaption{
     margin-left: 20px;
     font-size: 15px;
+}
+h2{
+    text-indent: 20px;
 }
 @media (max-width:800px) {
     .socialplug{
