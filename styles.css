@@ -14,22 +14,25 @@ body{
 ul{
     list-style: none;
     height: 65;
+    padding: 0px;
 }
 header{
     display: inline-block;
     height: 90px;
     border-bottom: solid;
+    width: 100%;
 }
 .site-logo{
     display: inline-block;
     margin-top: 10px;
+    margin-left: 10px;
 }
 nav{
     display: inline;
     text-align: center;
     position: fixed;
     top: 20px;
-    left: 200px;
+    left: 250px;
 }
 a{
     color: white;
@@ -47,13 +50,37 @@ p{
 }
 li{
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 footer{
     border-top: solid;
+    margin-top: 10px;
 }
 .socialplug{
-    max-width: 20%;
+    max-width: 25%;
     height: auto;
     margin: 20px;
+    display: list-item;
+}
+figure{
+    margin: 0;
+}
+figcaption{
+    margin-left: 20px;
+    font-size: 15px;
+}
+@media (max-width:800px) {
+    .socialplug{
+        max-width: 50%;
+    }
+    .site-logo{
+        display: block;
+    }
+    nav{
+        left: 30px;
+        top: 65px;
+    }
+    header{
+        padding-bottom: 20px
+    }
 }
