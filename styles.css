@@ -6,7 +6,7 @@
 
 }
 p{
-    text-indent: 50px;
+    left: 200px;
 }
 body{
     background: black;
@@ -18,12 +18,14 @@ ul{
     list-style: none;
     height: 65;
     padding: 0px;
+    margin: 0px;
 }
 header{
     display: inline-block;
     height: 90px;
     border-bottom: solid;
     width: 100%;
+    padding: 0px;
 }
 .site-logo{
     display: inline-block;
@@ -31,11 +33,14 @@ header{
     margin-left: 10px;
 }
 nav{
-    display: inline;
-    text-align: center;
-    position: fixed;
-    top: 20px;
+    display: inline-block;
+    text-align: left;
+    top: 35px;
     left: 250px;
+    height: 30px;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
 }
 a{
     color: white;
@@ -47,7 +52,6 @@ a:hover{
 }
 h1{
     margin-bottom: 0px;
-    text-indent: 20px;
 }
 p{
     margin-top: 5px;
@@ -73,9 +77,6 @@ figcaption{
     margin-left: 20px;
     font-size: 15px;
 }
-h2{
-    text-indent: 20px;
-}
 @media (max-width:800px) {
     .socialplug{
         max-width: 50%;
@@ -85,7 +86,7 @@ h2{
     }
     nav{
         left: 30px;
-        top: 65px;
+        top: 80px;
     }
     header{
         padding-bottom: 20px
