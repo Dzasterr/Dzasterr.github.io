@@ -7,6 +7,8 @@
 }
 p{
     left: 200px;
+    margin-top: 5px;
+    font-size: 1.2em;
 }
 body{
     background: black;
@@ -47,14 +49,15 @@ a{
     font-size: 20px;
     text-decoration: none;
 }
+a .businesslink{
+    font-size: 1.5em;
+    font-weight: bolder
+}
 a:hover{
     text-decoration: underline;
 }
 h1{
     margin-bottom: 0px;
-}
-p{
-    margin-top: 5px;
 }
 li{
     display: inline-block;
@@ -76,6 +79,7 @@ figure{
 figcaption{
     margin-left: 20px;
     font-size: 15px;
+    font-size: 1.2em;
 }
 @media (max-width:800px) {
     .socialplug{
